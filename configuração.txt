@@ -1,0 +1,30 @@
+git config --global user.name MarianaDMG05
+git config --global user.email mariana.gomes87@etec.sp.gov.br
+
+dotnet new sln --name EtecBarraBonita
+
+dotnet new mvc -o EtecBarraBonita
+
+dotnet sln add EtecBarraBonita\EtecBarraBonita.csproj
+
+Ctrl + Shift +P -> Pesquisar Nuget
+
+Microsoft.AspNet.Identity.EntityFramework
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+Pomelo.EntityFrameworkCore.MySql
+
+
+
+Criar classes de modelo
+
+criar o contexto
+
+criar ConnectionString no AppSettings
+
+adcionar serviços no programa
+
+executar o xampp e o MySql
+
+criar e executar a migração de dados
